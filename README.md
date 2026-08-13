@@ -40,6 +40,27 @@ pip install psutil  # para monitoreo de RAM en tiempo real
 
 ---
 
+## 📁 Archivos del paquete de actualización
+
+La entrega técnica se organiza en archivos con responsabilidades separadas:
+
+| Archivo | Para qué |
+| --- | --- |
+| `INSTRUCCIONES_PARA_MANUS.md` | Guía paso a paso con dos opciones de actualización: web o terminal. |
+| `gestion_memoria_simulaciones_ia.py` | Script final listo para reemplazar. |
+| `README.md` | Documentación completa lista para reemplazar. |
+
+Los archivos de soporte del repositorio mantienen reproducible la instalación y evitan subir artefactos pesados:
+
+| Archivo | Para qué |
+| --- | --- |
+| `requirements.txt` | Instala las dependencias con `pip install -r requirements.txt` en una sola línea. |
+| `.gitignore` | Evita subir `__pycache__`, modelos, datasets, entornos virtuales y salidas locales. |
+
+`INSTRUCCIONES_PARA_MANUS.md` funciona como guía de entrega del paquete; el código ejecutable y la documentación de uso permanecen en los archivos principales del repositorio.
+
+---
+
 ## 🚀 Uso rápido
 
 ### 1. Optimizar/Cuantizar un modelo (achicar)
